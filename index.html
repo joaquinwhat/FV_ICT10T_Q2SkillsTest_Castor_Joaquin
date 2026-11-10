@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Planet Information</h1>
+        <p>Enter a planet code to search</p>
+        <input type="text" id="planet1" placeholder="Example: EARTH">
+        <br>
+        <button py-click="search_planet"> Search Planet </button>
+
+        <div class="result">
+            <h3>Showcase Result</h3>
+            <p><b>Planet Code:</b><span id="code"></span></p>
+            <p><b>Planet Name:</b><span id="name"></span></p>
+            <p><b>Order from the Sun:</b><span id="order"></span></p>
+            <p><b>Number of Moons:</b><span id="moons"></span></p>
+        </div>
+
+    
+
+
+    <script type="py" src="main.py"></script>
+</div>
+</body>
+</html>
