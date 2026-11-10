@@ -1,5 +1,5 @@
 
-from pyscript import document
+from pyscript import display, document
 
 # nonmetal elements
 non_metals = {
